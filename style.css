@@ -1,0 +1,578 @@
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border-bottom: 1px solid white;
+   
+}
+.navbar-nav li{
+    
+    padding: 5 10px;
+    display: block;
+   
+     
+    
+}
+.navbar-nav li a{
+    float: center;
+    text-align: left;
+    border-bottom: 1px solid white;
+    margin: auto;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+
+/* the main navbar class*/
+.navbar{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+/* the main toggle button class and important means that we are overidding the bootstrap class, so mentioning it is important*/
+
+.navbar-toggler{
+    background: whitesmoke!important;
+    margin-right: 10px;
+}
+
+.nav-link{
+    color: white!important;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#slider{
+    width: 100%;
+    align-content: center;
+    border-bottom: 4px solid black;
+   
+}
+#indicators{
+     z-index: 1;
+}
+
+.carousel-caption{
+    
+    top: 35%;
+    bottom: initial!important;
+    z-index: 2;
+}
+
+.carousel-caption img{
+    margin: auto;
+}
+
+#cover-writing{
+color: black;
+}
+
+#searchbtn{
+    margin-left: 5px;
+}
+#searchbx{
+    margin-bottom: 0;
+    position: relative;
+    left:  0px;
+}
+
+/* ----ABOUT US SECTION---- */
+
+#about{
+    margin-top: 50px;
+   
+    border-bottom: 2px solid black;
+}
+#but{
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.bars{
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+.about-content{
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 600;
+    color: gray;
+}
+.bars p{
+    margin-bottom: 6px;
+    font-weight: 600;
+    margin-top: 30
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+     border-radius: 16px;
+}
+#about-usss-h2{
+    color: #007bff;
+    font-weight: 700;
+    font-size: 25 px;
+    text-align: center;
+}
+
+#about-usss-h42{
+    color: #007bff;
+    font-weight: 500;
+    font-size: 20 px;
+    text-align: center;
+}
+
+
+
+
+/*The Services Section*/
+#services{
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/startup-desk.jpg);
+    background-size:cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1{
+    text-align: center;
+    padding-bottom: 4px;
+    font-size: 48px;
+}
+#services h1::after
+
+{
+    content: '';
+    background: #efefef;
+    height: 3px;
+    width: 270px;
+    display: block;
+    margin: 0 auto 55px;
+}
+
+.icon{
+   
+    font-size: 40px;
+    margin: 20 auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#services p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+}
+
+#services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+/*-----OuR TEAM---- */
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: 
+}
+
+#team h1{
+    color: #007bff;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+#team h1::after
+{
+   content: '';
+    background: #007bff;
+    height: 3px;
+    width: 240px;
+    display: block;
+    margin: 0 auto 55px;
+}
+
+.profile-pic{
+    
+    margin-top: 25px;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+
+.profile-pic h2{
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.profile-pic h3{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.img-box ul{
+    
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff!important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box:hover ul{
+    
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: 0.7s;
+}
+
+
+
+
+/* the promo */
+#promo{
+    
+     margin-top: 10;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/man-working-at-startup.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef !important;
+    text-align: center;
+    padding: 100 20px;
+    font-family: sans-serif;
+    font-size: 58px;
+}
+#promo p{
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+
+
+
+/* The price Plan */
+#price{
+   padding: 40px 0;
+   background: #efefef;
+}
+#price h1{
+    color: #007bff;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+#price h1::after
+{
+   content: '';
+    background: #007bff;
+    height: 3px;
+    width: 240px;
+    display: block;
+    margin: 0 auto 55px;
+}
+
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+   
+.single-price:hover{
+    box-shadow: 0 2px 20px #333;
+}
+
+.price-head{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.price-head p{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span
+{
+    font-size: 25px;
+}
+
+.price-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    
+}
+.price-content ul li{
+    border-bottom: 2px solid #efefef;
+    padding: 15px 10px;
+    align-content: center;
+    list-style: none;
+    position: relative;
+    left: -15px;
+    font-weight: 600;
+    font-family: myriad pro;
+}
+
+ul li:last-child{
+    border: none;
+}
+
+.fa-check-circle{
+    margin-right: 10px;
+    color: green;
+}
+.fa-times-circle{
+    margin-right: 10px;
+    color: red;
+}
+
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 10px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn
+{
+    background-color: #2196f3;
+    border-radius: 15px;
+    display:inline-block;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+    transition: 0.5s;
+}
+
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+     color: white;
+    background-color: mediumvioletred;
+    box-shadow: 0 2px 10px #333;
+}
+
+
+/*---the Testimonials!--*/
+
+#testimonials h1{
+  color: #007bff;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+#testimonials h1::after
+{
+   content: '';
+    background: #007bff;
+    height: 3px;
+    width: 370px;
+    display: block;
+    margin: 0 auto 55px;
+}   
+    
+#testimonials 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#testimonials .row{
+    margin-top: 40px;
+}
+
+.col-md-4{
+    
+    margin: 40px auto;
+    
+}
+.profile
+{
+    padding: 110px 10px 10px;
+    background-color: #efefef;
+}
+
+.user{
+    width: 120px
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 70px);
+    border: 10px solid white;
+    
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+#testimonials span{
+    
+    font-size: 12px;
+    color: #333;   
+}
+
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: #007eff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    color: #007eff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.6);
+    cursor: pointer;
+     transition: 0.5s;
+}
+.pp{
+    font-weight: 600;
+    font-family: cursive;
+}
+
+
+
+
+
+/* The media Queries */
+@media screen and (max-width: 600px){
+    
+    #coverr{
+        height: 500px;
+    }
+
+    .carousel-caption{
+    
+    top: 30%;
+    bottom: initial!important;
+}
+}
+
+
+
+
+
+/* The media Queries */
+
+@media screen and (max-width: 992px){
+    
+    
+}
+
+
+
+@media screen and (max-width: 480px){
+    
+    #coverr{
+        height: 430px;
+
+    }
+
+    .carousel-caption{
+    
+    top: 30%;
+    bottom: initial!important;
+}
+    #searchbtn{
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+        
+}
+    
+}
+
+
+
+@media (max-width:1130px){.navbar-expand-srset>.container,.navbar-expand-srset>.container-fluid{padding-right:0;padding-left:0}}@media (min-width:1071px){.navbar-expand-srset{-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-srset .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-srset .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-srset .navbar-nav .dropdown-menu-right{right:0;left:auto}.navbar-expand-srset .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-srset>.container,.navbar-expand-srset>.container-fluid{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.navbar-expand-srset .navbar-collapse{display:-ms-flexbox!important;display:flex!important}.navbar-expand-srset .navbar-toggler{display:none}.navbar{flex-wrap:nowrap!important;-ms-flex-wrap:nowrap!important;}}
